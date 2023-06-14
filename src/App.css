@@ -1,0 +1,55 @@
+.container{
+    width: 90%;
+    display: grid;
+    gap : 20px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.menu {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.menu ul li{
+    margin-right:20px;
+}
+
+.form-add{
+    display: grid;
+    gap : 10px; 
+}
+
+.form-add input[type="submit"]{
+    justify-self: flex-end;
+}
+
+input[type="submit"], input[type="text"], textarea , button{
+    padding: 5px;
+}
+
+.me-3{
+    margin-right: 20px;
+}
+.mb-3{
+    margin-bottom: 20px;
+}
+
+.max-w{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.g-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap : 20px; 
+}
